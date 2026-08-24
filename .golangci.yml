@@ -1,3 +1,4 @@
+version: "2"
 run:
   timeout: 3m
 linters:
@@ -5,8 +6,9 @@ linters:
     - errcheck
     - govet
     - staticcheck
-    - gosimple
     - ineffassign
     - unused
-    - gofmt
     - revive
+formatters:
+  enable:
+    - gofmt

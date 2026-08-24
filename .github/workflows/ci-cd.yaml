@@ -38,7 +38,7 @@ jobs:
       - name: Lint
         uses: golangci/golangci-lint-action@v6
         with:
-          version: v1.59
+          version: v2.6.2
 
       - name: Unit tests
         run: go test -race -covermode=atomic ./...
