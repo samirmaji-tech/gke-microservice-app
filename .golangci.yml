@@ -8,13 +8,6 @@ linters:
     - staticcheck
     - ineffassign
     - unused
-  settings:
-    revive:
-      rules:
-        - name: exported
-          disable: true
-        - name: package-comments
-          disable: true
 formatters:
   enable:
     - gofmt
