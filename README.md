@@ -1,6 +1,6 @@
 # gke-microservice-app
 
-Go microservice + CI for the Enterprise GitOps on GKE project.
+Go microservice + CI for the Production-grade GitOps on GKE project.
 
 - REST API with `/healthz`, `/readyz`, `/metrics`
 - Custom Prometheus metrics + structured JSON logs (stdout) + OpenTelemetry traces
