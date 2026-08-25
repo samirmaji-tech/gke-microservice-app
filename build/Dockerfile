@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # ---------- build stage ----------
-FROM golang:1.22 AS build
+FROM golang:1.25 AS build
 WORKDIR /src
 # Cache deps first for faster rebuilds.
 COPY go.mod go.sum ./
