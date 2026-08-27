@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/example/gke-microservice-app/internal/metrics"
+	"github.com/samirmaji-tech/gke-microservice-app/internal/metrics"
 )
 
 // statusRecorder captures the status code written by downstream handlers.

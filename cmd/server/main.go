@@ -15,10 +15,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 
-	"github.com/example/gke-microservice-app/internal/handlers"
-	"github.com/example/gke-microservice-app/internal/metrics"
-	appmw "github.com/example/gke-microservice-app/internal/middleware"
-	"github.com/example/gke-microservice-app/internal/telemetry"
+	"github.com/samirmaji-tech/gke-microservice-app/internal/handlers"
+	"github.com/samirmaji-tech/gke-microservice-app/internal/metrics"
+	appmw "github.com/samirmaji-tech/gke-microservice-app/internal/middleware"
+	"github.com/samirmaji-tech/gke-microservice-app/internal/telemetry"
 )
 
 func getenv(k, def string) string {
